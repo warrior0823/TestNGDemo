@@ -1,0 +1,7 @@
+<?xml version = '1.0'?>
+<Services>
+    <TestSuite name="guiLoginCheck" component="" TestSet="" TestLevel="P0" Description="" >
+        <TestCase id="1" url="https://www.baidu.com" user="111111" password="welcome1" component="GUI"/>
+        <TestCase id="2" url="https://www.baidu.com" user="222222" password="welcome1" component="GUI"/>
+    </TestSuite>
+</Services>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <!--    切换浏览器进行兼容性测试    -->
+    <parameter name="browser" value="firefox"></parameter>
+    <parameter name="url" value="www.baidu.com"></parameter>
+    <test name="ParameterTest">
+        <classes>
+            <class name="testcases.ParameterTest"></class>
+        </classes>
+    </test>
+</suite>
